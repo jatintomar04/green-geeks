@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cointainer {
+    height: 100vh;
+    width: 100%;
+    
+   
+}
+.nav-bar {
+    height: 14%;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 5px 3px rgba(214, 198, 198, 0.454);
+    
+}
+.nav-bar img {
+    height: 85px;
+    width: 220px;
+    padding-left: 20px;
+}
+.link-part {
+    height: auto;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.link-part ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+   
+}
+.link-part li a {
+   text-decoration: none;
+    color: black;
+   font-weight: 600;
+
+}
+.right-link ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style: none;
+}
+.right-link {
+    height: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+.right-link ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.left-part {
+    width: 50%;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 70px;
+    background-color: antiquewhite;
+}
+.left-part h1{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.left-part p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+.left-part h4 {
+    font-weight: 450;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+}
+.left-part button {
+    height: 45px;
+    width: 300px;
+    background-color: rgb(16, 97, 16);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+.right-part {
+    height: auto;
+    width: 50%;
+    padding-top: 80px;
+    background-color: antiquewhite;
+    
+}
+.right-part img {
+    display: flex;
+    height: auto;
+    width: 500px;
+}
+.lower-part {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.second-page {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1px;
+    
+
+}
+.second-page h1{
+    font-weight: 500;
+    padding-top: 30px;
+
+}
+.second-page .box-section .box{
+    height: auto;
+    width: 250px;
+   
+
+}
+ .box {
+    height: 550px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+}
+.box-section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+.box i {
+    font-size: 80px;
+}
+.box p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.box h4 {
+    height: 30px;
+    width: 100%;
+    background-color: rgba(112, 202, 112, 0.639);
+    padding-left: 40px;
+    padding-top: 3px;
+
+}
+.box button {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(16, 168, 16);
+    border: none;
+    border-radius: 5px;
+    
+}
+.box h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.third-page {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.third-left {
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    background-color: aquamarine;
+   
+    
+}
+.third-right {
+    height: auto;
+    width: 50%;
+    background-image: url(image/right.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+    
+.third-left {
+    
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgb(8, 95, 8);
+}
+.third-left h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    color: white;
+}
+.third-left p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.third-left span a {
+    color: white;
+}
+.third-left span {
+    color: white;
+}
+.fourth-part {
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.box-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.box-sec .box {
+    height: 250px;
+    width: 350px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  
+}
+.upper-part{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box h1 {
+    font-size: 20px;
+}
+.fifth {
+    height: 100vh;
+    width: 1005;
+    background-color: rgba(208, 205, 200, 0.87);
+    display:flex;
+    padding: 40px;
+}
+.fifth .fifth-left{
+    height: auto;
+    width: 35%;
+    background-position: center;
+    background-size: cover;
+    
+}
+.fifth-left img {
+    height: 500px;
+    width: 400px;
+}
+.fifth .fifth-right{
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 40px;
+
+}
+.fifth-right h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.fifth-right p {
+    padding-top: 20px;
+}
+.fifth-right span a {
+    color: rgb(20, 18, 18);
+}
+.six {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    background-color: rgba(208, 205, 200, 0.87);
+}
+.six .box {
+    height: 400px;
+    width: 380px;
+    border: none;
+
+}
+.six .box img {
+    height: auto;
+    width: 200px;
+}
+.six h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.seven-page {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.seven-page .cart-section  .cart {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.seven-page .cart-section { 
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+.seven-page .cart-section  .cart p {
+    font-size: 10px;
+}
+
+.eight-page {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+}
+.eight-page h1 {
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 35px;
+}
+.eight-page p {
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.eight-page button {
+    height: 45px;
+    width: 250px;
+    background-color: rgb(18, 123, 18);
+    border-radius: 5PX;
+    border: none;
+    margin-top: 40px;
+    
+}
+.last-page {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(5, 60, 60);
+    display: flex;
+}
+.first-last {
+    height: 100vh;
+    width: 25%;
+    background-color:  rgb(5, 60, 60);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  
+}
+.second-last {
+    height: 100vh;
+    width: 25%;
+    background-color:  rgb(5, 60, 60);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+}
+.third-last {
+    height: 100vh;
+    width: 25%;
+    background-color:  rgb(5, 60, 60);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+
+}
+.fourth-last {
+    height: 100vh;
+    width: 35%;
+    background-color: rgb(5, 60, 60);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.first-lower {
+    width: 100%;
+    height: 40%;
+    padding-top: 160px;
+}
+
+.fourth-last img {
+    height: auto;
+    width: 160px;
+    padding-top: 50px;
+}
+.last-page h3 {
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 400;
+}
+.last-page li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.last-page li {
+    list-style: none;
+}
+.fourth-last a {
+    color: white;
+}
+
+
+@media (max-width: 768px)  {
+    .cointainer {
+        height: auto;
+        width: 100%;
+
+    }
+   .nav-bar {
+   
+    height: 70px;
+    width: 100%;
+   }
+   .link-part ul {
+    display: none;
+   }
+   .right-link{
+    height: auto;
+    width: 900px;
+    font-size: medium;
+    padding-right: 20px;
+   }
+   .lower-part  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+   }
+   .right-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+   
+   }
+   .right-part img {
+    height: 500px;
+    width: 500px;
+   }
+   .left-part {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   }
+   .left-part h1 br { 
+    display: none;
+   }
+   .left-part h1 {
+    font-size: 30px;
+   }
+   .left-part p br{
+    display: none;
+
+   }
+   .second-page {
+    height: auto;
+    width: 100%;
+   }
+   .second-page .box-section {
+    flex-wrap: wrap;
+   }
+   .second-page .box-section .box {
+    height: auto;
+    width: 300px;
+    border: none;
+   }
+   .fifth {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .fifth-right h1 {
+    font-size: 40px;
+    
+   }
+   .fifth-right {
+    width: 100%;
+    height: auto;
+   }
+   .fifth-left {
+   display: none;
+   }
+
+
+   .six {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   }
+   .six .box h1 {
+    font-size: 30px;
+   }
+   .six .box {
+    height: auto;
+    width: 100%;
+   }
+   .seven-page {
+    display: none;
+   }
+   .last-page{
+    height: auto;
+    width: 100%;
+   }
+   .first-last {
+    height: auto;
+   }
+   .second-last{
+    height: auto;
+   }
+    .third-last{
+        height: auto;
+    }
+    .fourth-last {
+        height: auto;
+    }
+    
+
+   
+
+}
+@media (max-width: 480px) {
+    .cointainer {
+        height: auto;
+        width:550px;
+   
+    }    
+    .cointainer .right-link {
+        font-size: 12px;
+        justify-content: center;
+      
+    }
+    .cointainer .right-link i {
+        display: none;
+    }
+    
+    
+    .lower-part .right-part img {
+        height: auto;
+        width: 350px;
+        
+    } 
+    .cointainer .left-part {
+        height: auto;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+    .cointainer .left-part h1 {
+        font-size: 20px;
+    }
+    .second-page {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 25px;
+    }
+     .second-page h1 {
+        font-size: 20px;
+        
+     }
+     .third-page .third-right {
+        display: none;
+     }
+     .third-page .third-left {
+        height: auto;
+        width:100% ;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+     }
+     .third-page .third-left  h1 {
+        font-size: 30px;
+     }
+     .fourth-part {
+        height: auto;
+        width: 100%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+     }
+     .fourth-part h1 {
+        font-size: 25px;
+     }
+     .fourth-part h2 {
+        font-size: 15px;
+        padding-top: 10px;
+     }
+     .fourth-part .box-sec .box {
+        height: auto;
+        width: 100%;
+
+     } 
+     .fifth {
+        height: auto;
+        width: 100%;
+     }
+     .fifth .fifth-right {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+     }
+     .eight-page {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+     }
+     .eight-page p {
+        font-size: 12px;
+        font-weight: 500;
+     }
+     .last-page {
+        display: none;
+     }
+
+
+
+
+     
+    
+    
+}
+    
+
